@@ -33,4 +33,4 @@ The final model was trained for 15 epochs, reaching a stable learning state:
 3. Open model.ipynb in Jupyter Lab.
 4. Run all cells to see the training process and final predictions.
 
-![Model Prediction](result.png)
+![Model Prediction](result.jpg)
