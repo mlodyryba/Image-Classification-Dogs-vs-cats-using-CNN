@@ -27,10 +27,24 @@ The final model was trained for 15 epochs, reaching a stable learning state:
 - Model State Management: Resolved NameError and ValueError issues by ensuring strict sequential execution of model definition, compilation, and training.
 - System Optimization: Configured the environment to run efficiently on macOS hardware.
 
+# Sample Predictions and Error Analysis
+The model correctly identifies clear images but faces challenges with complex backgrounds or unusual angles.
+
+## Correct Classifications
+![Model Prediction](result.jpg)
+![Model Prediction](result2.jpg)
+
+## Model Limitations (Incorrect Predictions)
+
+![Model Prediction](result3.jpg)
+![Model Prediction](result4.jpg)
+
+Further analysis shows the model often misinterprets background textures as key features due to the limited variety in the small training set. This sensitivity to image noise confirms that the network requires more diverse data or augmentation to improve its spatial reasoning.
+
 # How to Run
 1. Clone this repository.
 2. Ensure you have Python 3.9 and TensorFlow installed.
 3. Open model.ipynb in Jupyter Lab.
 4. Run all cells to see the training process and final predictions.
 
-![Model Prediction](result.jpg)
+
