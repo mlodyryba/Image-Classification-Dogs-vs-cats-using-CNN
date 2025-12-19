@@ -48,3 +48,10 @@ Further analysis shows the model often misinterprets background textures as key 
 4. Run all cells to see the training process and final predictions.
 
 
+# Credits and Acknowledgments
+This project was developed for educational purposes as a follow-along project to learn the fundamentals of Convolutional Neural Networks.
+
+* Original Tutorial: https://www.youtube.com/watch?v=J1jhfAw5Uvo&t=752s
+
+Special thanks to the creator for the clear explanation of CNN concepts. My contribution involved setting up the local environment, debugging library-specific issues, and performing a detailed error analysis on the final model.
+
