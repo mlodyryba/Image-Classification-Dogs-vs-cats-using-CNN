@@ -32,3 +32,5 @@ The final model was trained for 15 epochs, reaching a stable learning state:
 2. Ensure you have Python 3.9 and TensorFlow installed.
 3. Open model.ipynb in Jupyter Lab.
 4. Run all cells to see the training process and final predictions.
+
+![Model Prediction](result.png)
