@@ -43,10 +43,11 @@ Further analysis shows the model often misinterprets background textures as key 
 
 # How to Run
 1. Clone this repository.
-2. Ensure you have Python 3.9 and TensorFlow installed.
-3. Open model.ipynb in Jupyter Lab.
-4. Update the dataset path in the notebook to match your local directory structure.
-5. Run all cells to see the training process and final predictions.
+2. Download the dataset: https://bit.ly/ImgClsKeras
+3. Ensure you have Python 3.9 and TensorFlow installed.
+4. Open model.ipynb in Jupyter Lab.
+5. Update the dataset path in the notebook to match your local directory structure.
+6. Run all cells to see the training process and final predictions.
 
 
 # Credits and Acknowledgments
